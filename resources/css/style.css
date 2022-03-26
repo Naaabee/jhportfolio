@@ -1,0 +1,25 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+ul {
+    font-family: "Mukta";
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.325rem;
+    padding: 0 1rem;
+    color: #FF6B6B;
+    transition: color .5s;
+}
+
+a:hover {
+    color: #FFD93D;
+}
