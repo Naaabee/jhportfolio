@@ -1,6 +1,7 @@
 * {
     border: 0;
     margin: 0;
+    background-color: #4D96FF;
 }
 
 ul {
@@ -15,11 +16,27 @@ ul {
 a {
     text-decoration: none;
     font-size: 1.325rem;
+    font-weight: bold;
     padding: 0 1rem;
     color: #FF6B6B;
-    transition: color .5s;
+    transition: color 0.5s ease;
 }
 
 a:hover {
     color: #FFD93D;
+}
+
+#main-banner {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    margin: 15rem auto;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
 }
