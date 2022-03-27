@@ -1,8 +1,9 @@
 * {
-    border: 0;
+    padding: 0;
     margin: 0;
     background-color: #4D96FF;
     font-family: "Mukta";
+    cursor: crosshair;
 }
 
 ul {
@@ -12,6 +13,10 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 2.5rem;
+}
+
+ul li {
+    cursor: pointer;
 }
 
 ul a {
@@ -42,6 +47,7 @@ a:hover {
     padding: 0;
     text-decoration: none;
     color: #FFF;
+    cursor: pointer;
 }
 
 #main-banner #malaysia:hover {
@@ -51,6 +57,8 @@ a:hover {
 #malaysia:hover {
     background: linear-gradient(90deg, #FFF, #e9ec26, #e21111, #011168);
     -webkit-background-clip: text;
+    /* background-clip is added to fix compatibility issue */
+    background-clip: text;
     color: transparent;
     background-size: 300%;
     animation: bg-animate 2.2s infinite alternate;
