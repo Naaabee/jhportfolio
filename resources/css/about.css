@@ -28,61 +28,23 @@ ul a {
     transition: color 0.5s ease;
 }
 
+ul #about-page {
+    color: #FFD93D;
+}
+
 a:hover {
     color: #FFD93D;
 }
 
-#main-banner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+#about-content {
+    display: flex;
+    flex-flow: column;
     text-align: center;
-    width: 100%;
     justify-content: center;
-    margin: 0 auto;
+    margin: 15rem auto;
     font-family: "Mukta";
     color: #FFF89A;
 }
-
-#main-banner h1 {
-  
-}
-
-
-#main-banner #malaysia {
-    font-size: larger;
-    padding: 0;
-    text-decoration: none;
-    color: #FFF;
-    cursor: pointer;
-}
-
-#main-banner #malaysia:hover {
-    color: transparent;
-}
-
-#malaysia:hover {
-    background: linear-gradient(90deg, #FFF, #e9ec26, #e21111, #011168);
-    -webkit-background-clip: text;
-    /* background-clip is added to fix compatibility issue */
-    background-clip: text;
-    color: transparent;
-    background-size: 300%;
-    animation: bg-animate 2.2s infinite alternate;
-}
-
-#logo-icon {
-    display: flex;
-    width: 100%;
-    flex-flow: row-reverse;
-    position: fixed;
-    z-index: 2;
-    bottom: 20px;
-    right: 20px;
-    background-color: transparent;
-}
-
 
 footer {
     position: fixed;
