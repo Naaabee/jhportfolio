@@ -3,7 +3,7 @@
     margin: 0;
     background-color: #4D96FF;
     font-family: "Mukta";
-    cursor: crosshair;
+    cursor: url("../images/Cursor.svg"), default;
 }
 
 ul {
