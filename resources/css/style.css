@@ -45,10 +45,6 @@ a:hover {
     color: #FFF89A;
 }
 
-#main-banner h1 {
-  
-}
-
 
 #main-banner #malaysia {
     font-size: larger;
@@ -81,6 +77,10 @@ a:hover {
     bottom: 20px;
     right: 20px;
     background-color: transparent;
+}
+
+#logo-icon img {
+    cursor: pointer;
 }
 
 
