@@ -12,9 +12,12 @@ Build a personal portfolio site, a static website where you can share the projec
 * **OPTIONAL**: Buy a custom domain name and have it point to your GitHub Pages website
 
 # Features 🕹
-1. Navigate through pages
+1. Multiple Pages with Single Page layout
 
 
 # How to use ❓
 
 # Technologies 🔧
+
+# Credits ❤️‍🔥
+Particles Effect Background: https://www.youtube.com/watch?v=d620nV6bp0A

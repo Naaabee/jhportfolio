@@ -1,9 +1,19 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #4D96FF;
+    box-sizing: border-box;
     font-family: "Mukta";
     cursor: url("../images/Cursor.svg"), default;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#b1b1b1, #8b8b8b);
+    z-index: -1;
 }
 
 ul {
@@ -81,6 +91,7 @@ a:hover {
 
 #logo-icon img {
     cursor: pointer;
+    width: 40px;
 }
 
 
@@ -90,12 +101,6 @@ footer {
     text-align: center;
     bottom: 0;
 }
-
-footer a img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
 
 @keyframes bg-animate {
     0% {background-position: left;}

@@ -59,6 +59,7 @@ a:hover {
 
 #logo-icon img {
     cursor: pointer;
+    width: 40px;
 }
 
 footer {
