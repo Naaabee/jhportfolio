@@ -16,6 +16,10 @@
     z-index: -1;
 }
 
+nav {
+    animation: nav-load 500ms ease-in;
+}
+
 ul {
     font-family: "Mukta";
     list-style-type: none;
@@ -53,6 +57,7 @@ a:hover {
     margin: 0 auto;
     font-family: "Mukta";
     color: #FFF89A;
+    animation: banner-load 1000ms ease-in;
 }
 
 
@@ -69,7 +74,7 @@ a:hover {
 }
 
 #malaysia:hover {
-    background: linear-gradient(90deg, #FFF, #e9ec26, #e21111, #011168);
+    background: linear-gradient(90deg,#FFF, #e9ec26, #e21111, #011168, #e21111, #e9ec26);
     -webkit-background-clip: text;
     /* background-clip is added to fix compatibility issue */
     background-clip: text;
@@ -105,4 +110,15 @@ footer {
 @keyframes bg-animate {
     0% {background-position: left;}
     100% {background-position: right;}
+}
+
+@keyframes nav-load {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0%);}
+}
+
+@keyframes banner-load {
+    from {opacity: 0;}
+    to {opacity: 1;}
+
 }
