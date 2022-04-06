@@ -10,10 +10,12 @@
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background: radial-gradient(#b1b1b1, #8b8b8b);
-    z-index: -1;
+    z-index: -2;
 }
 
 nav {
