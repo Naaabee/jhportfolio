@@ -91,6 +91,18 @@ h1 {
     animation: about-load 1000ms ease-in;
 }
 
+.icons {
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+}
+
+.icons img {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* SVG SECTION */
 #logo-icon {
     display: flex;
     width: 100%;
@@ -102,12 +114,18 @@ h1 {
     background-color: transparent;
 }
 
-#logo-icon img {
+#logo-icon svg {
     cursor: pointer;
-    width: 40px;
-    stroke-dashoffset: 1000;
-    stroke-dasharray: 1000;
+    width: 80%;
 }
+
+#midline path{
+    stroke: aqua;
+    stroke-dasharray: 70;
+    stroke-dashoffset: 69;
+}
+
+/* SVG SECTION */
 
 
 footer {

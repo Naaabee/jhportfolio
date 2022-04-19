@@ -13,12 +13,16 @@
     background: transparent url(https://www.dropbox.com/s/h7ab1c82ctzy83n/noise.png?raw=1) 0 0;
     background-size: 320px 320px;
     opacity: .35;
-    animation: noise 1s steps(8,end) infinite both;
+    animation: noise 800ms steps(8,end) infinite both;
     z-index: -1;
 }
 
 @keyframes noise {
     0% {background-position: left; }
+    20% {background-position: right;}
+    40% {background-position: left;}
+    60% {background-position: right;}
+    80% {background-position: left;}
     100% {background-position: right;}
 }
   
