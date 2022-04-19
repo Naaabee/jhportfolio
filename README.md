@@ -25,6 +25,6 @@ Build a personal portfolio site, a static website where you can share the projec
 5. Google
 
 # Credits ❤️‍🔥
-Particles Effect Background: https://www.youtube.com/watch?v=d620nV6bp0A
-Swirl Effect Background: https://codepen.io/jlfwong/pen/GqmroZ
-Noise Effect: https://codepen.io/anatravas/pen/vyOwOZ
+* Particles Effect Background: https://www.youtube.com/watch?v=d620nV6bp0A
+* Swirl Effect Background: https://codepen.io/jlfwong/pen/GqmroZ
+* Noise Effect: https://codepen.io/anatravas/pen/vyOwOZ

@@ -102,6 +102,10 @@ h1 {
     cursor: pointer;
 }
 
+.icons :hover {
+    transform: scale(1.05);
+}
+
 /* SVG SECTION */
 #logo-icon {
     display: flex;
