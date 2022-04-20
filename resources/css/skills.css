@@ -91,22 +91,16 @@ h1 {
     animation: about-load 1000ms ease-in;
 }
 
-.icons {
-    width: 125px;
-    height: 125px;
-    padding: 5px;
+.skill-icon {
+   width: 65px;
+   height: 65px;
+   padding: 5px;
 }
 
-.icons img {
+.skill-icon img {
     width: 100%;
-    cursor: pointer;
 }
 
-.icons :hover {
-    transform: scale(1.05);
-}
-
-/* SVG SECTION */
 #logo-icon {
     display: flex;
     width: 100%;
@@ -124,8 +118,6 @@ h1 {
     stroke-dashoffset: 1000;
     stroke-dasharray: 1000;
 }
-
-/* SVG SECTION */
 
 
 footer {

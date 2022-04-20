@@ -5,7 +5,7 @@
     font-family: "Darker Grotesque";
     cursor: url("../images/Cursor.svg"), default;
 }
-/*This is canvas */
+
 #canvas {
     position: absolute;
     top: 0;
@@ -32,9 +32,8 @@
     opacity: 0.4;
     z-index: -2;
 }
-/* Canvas Ends Here */
 
-/* This is Nav */
+/* NAV SECTION */
 nav {
     animation: nav-load 500ms ease-in;
 }
@@ -66,47 +65,59 @@ ul a:hover {
     opacity: 0.7;
     transform: scale(1.1);
 }
-/* Nav Ends Here */
+/* NAV ENDS HERE*/
 
 h1 {
-    font-size: 2.525rem;
+    padding: 10px 0;
 }
 
-#about-content p {
-    font-size: 1.225rem;
-}
-
-#about-content {
+#contact-form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    text-align: center;
+    text-align: left;
     width: 100%;
     justify-content: center;
     margin: 0 auto;
-    padding: 0 2rem;
-    color: black;
-    max-width: 1200px;
-    animation: about-load 1000ms ease-in;
+    padding: 0 20px;
+    color: #242424;
+    animation: banner-load 1000ms ease-in;
 }
 
-.icons {
-    width: 125px;
-    height: 125px;
-    padding: 5px;
+form {
+    width: 90%;
+    max-width: 600px;
+    padding: 2vh 4vh;
+    overflow: none;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius:10px;
+    display: flex;
+    flex-flow: column;
 }
 
-.icons img {
-    width: 100%;
-    cursor: pointer;
+form input, form textarea {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background:rgba(255, 255, 255, 0.55);
+    resize: none;
+    max-width: 530px;
 }
 
-.icons :hover {
-    transform: scale(1.05);
+form button {
+    padding: 10px;
+    margin: 0 10px;
+    background: rgba(255, 255, 255, 0.55);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    max-width: 100px;
+    overflow: hidden;
 }
 
-/* SVG SECTION */
 #logo-icon {
     display: flex;
     width: 100%;
@@ -125,8 +136,6 @@ h1 {
     stroke-dasharray: 1000;
 }
 
-/* SVG SECTION */
-
 
 footer {
     position: fixed;
@@ -135,12 +144,17 @@ footer {
     bottom: 0;
 }
 
+@keyframes bg-animate {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
 @keyframes nav-load {
     0% {transform: translateY(-100%);}
     100% {transform: translateY(0%);}
 }
 
-@keyframes about-load {
+@keyframes banner-load {
     from {opacity: 0;}
     to {opacity: 1;}
 }
