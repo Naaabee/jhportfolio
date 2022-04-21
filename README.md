@@ -13,18 +13,23 @@ Build a personal portfolio site, a static website where you can share the projec
 
 # Features 🕹
 1. Multiple Pages with Single Page layout
-
+2. Some moving background 
+3. Link to social media and projects
+4. Contact form 
+5. Responsive design (Partially done lol)
 
 # How to use ❓
+1. READ
 
 # Technologies 🔧
-1. HTML
-2. CSS
-3. Javascript
-4. Github
-5. Google
+1. Figma
+2. HTML
+3. CSS
+4. Javascript
+5. Github
+6. Google
 
 # Credits ❤️‍🔥
 * Particles Effect Background: https://www.youtube.com/watch?v=d620nV6bp0A
 * Swirl Effect Background: https://codepen.io/jlfwong/pen/GqmroZ
-* Noise Effect: https://codepen.io/anatravas/pen/vyOwOZ
+* Noise Effect: https://codepen.io/anatravas/pen/vyOwOZ - Inspired by Charles Bruyerre

@@ -38,7 +38,7 @@ nav {
     animation: nav-load 500ms ease-in;
 }
 
-ul {
+nav ul {
     font-family: "Mukta";
     list-style-type: none;
     display: flex;
@@ -47,11 +47,11 @@ ul {
     padding: 1rem 2.5rem;
 }
 
-ul li {
+nav ul li {
     cursor: pointer;
 }
 
-ul a {
+nav ul a {
     text-decoration: none;
     font-size: 1.325rem;
     font-weight: bold;
@@ -60,7 +60,7 @@ ul a {
     transition: color 0.5s ease;
 }
 
-ul a:hover {
+nav ul a:hover {
     color: #242424;
     opacity: 0.7;
     transform: scale(1.1);
@@ -78,11 +78,11 @@ h1 {
     transform: translateX(-50%) translateY(-50%);
     text-align: left;
     width: 100%;
-    justify-content: center;
     margin: 0 auto;
     padding: 0 20px;
     color: #242424;
     animation: banner-load 1000ms ease-in;
+    display: flex;
 }
 
 form {
@@ -94,6 +94,7 @@ form {
     border-radius:10px;
     display: flex;
     flex-flow: column;
+    overflow: hidden;
 }
 
 form input, form textarea {
@@ -116,6 +117,38 @@ form button {
     outline: none;
     max-width: 100px;
     overflow: hidden;
+    cursor: pointer;
+}
+
+#socials {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials ul {
+    list-style-type: none;
+}
+
+#socials ul li {
+    padding: 20px 0;
+}
+
+#socials img {
+    width: 50px;
+}
+
+form button :hover {
+    transform: scale(1.05);
+    background:rgba(0, 0, 0, 0.55);
+    color: white;
+}
+
+#socials li :hover {
+    opacity: 0.7;
 }
 
 #logo-icon {
